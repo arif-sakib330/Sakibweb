@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding-right: 0px;
+  padding: 0px;
+  color: #0d1321;
+}
+
+/* common class */
+.button-primary {
+  margin-top: 20px;
+  padding: 5px 15px;
+}
+.button-sec {
+  margin-top: 20px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #0d1321;
+}
+
+.color-sec {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: rgb(71, 72, 71);
+}
+
+.section-title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* header */
+header {
+  margin-top: 50px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-one {
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+
+/* body */
+body {
+  font-family: "Azeret Mono", monospace;
+  margin: 50px 100px;
+}
+
+/* banner */
+
+.banner {
+  background-image: url("assets/Hero-bg.png");
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 808px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+/* why web */
+
+.why-web {
+  align-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.why-web-container {
+  margin: 0px 100px;
+  background-color: #e3e7ec;
+  padding: 50px 50px 100px 100px;
+}
+.bg-white {
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+}
+.web-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* inspiration */
+
+.item-center {
+  justify-content: center;
+  display: flex;
+}
+
+.iframe {
+  margin-top: 50px;
+  width: 800px;
+}
+
+/* target */
+.html {
+  background-color: #e3a294;
+  justify-content: start;
+  padding: 20px;
+  margin: 20px;
+}
+.css {
+  background-color: #afd5e2;
+  justify-content: start;
+  padding: 20px;
+  margin: 20px;
+}
+.java {
+  background-color: #c6ceba;
+  justify-content: start;
+  padding: 20px;
+  margin: 20px;
+}
+.anchor {
+  margin-top: 10px;
+}
+.Target-container {
+  display: flex;
+}
+/* support */
+.support {
+  background-image: url(assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  width: auto;
+  align-content: center;
+  text-align: center;
+  margin-top: 50px;
+  padding: 80px 70px 70px;
+  border-radius: 20px;
+}
+
+.input-field {
+  margin: 20px 0px;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+
+.white-color {
+  color: white;
+  margin-top: 20px;
+}
+.grey-color {
+  color: rgba(219, 227, 227, 0.935);
+}
+
+.submit {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: white;
+}
+/* footer */
+.footer {
+  margin: 50px 2px 0px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
